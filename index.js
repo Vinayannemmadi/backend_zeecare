@@ -27,7 +27,7 @@ app.get("/",(req,res)=>{
     res.send("hello");
 })
 
-app.listen(porcess.env.PORT,()=>{
+app.listen(4400,()=>{
     console.log("server running at port 4000...");
 });
 
